@@ -73,17 +73,17 @@ def _softmax_loss(self, y_true, y_pred):
 				      axis=-1)
 	return softmax_loss
 ```
-## Resources
+### Resources
 
 dataset can be downloaded from [http://host.robots.ox.ac.uk/pascal/VOC/, use The VOC2007 Challenge in this example
 
 Weights can be downloaded at [https://drive.google.com/file/d/0B5o_TPhUdyJWWEl5WG1lcUxCZzQ/view?usp=sharing](https://drive.google.com/file/d/0B5o_TPhUdyJWWEl5WG1lcUxCZzQ/view?usp=sharing)
 
 
-## Hint
+### Hint
 
 The folder called Data-set has just 5-10 samples of the VOC-2007. to train your own model please download the entire data set by clicking on the link above. Thanks 
 
-## References
+### References
 
 My work is just playing with this fantastic algorithm, and see the detection result of my own. Many many thanks goes to the author of the SSD paper
